@@ -1,0 +1,14 @@
+{
+  "name": "simple-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve . -p 3000"
+  },
+  "author": "zx",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
