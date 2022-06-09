@@ -1,6 +1,8 @@
 # 选择一个体积小的镜像 (~5MB)
 FROM node:14-alpine
 
+RUN echo zengxin-info-----
+
 # 设置为工作目录，以下 RUN/CMD 命令都是在工作目录中进行执行
 WORKDIR /code/docker-learn
 
@@ -8,7 +10,7 @@ WORKDIR /code/docker-learn
 ADD . /code/docker-learn
 
 # 装包
-RUN npm install
+RUN yarn
 
 EXPOSE 3000
 

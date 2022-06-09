@@ -9,7 +9,7 @@ ADD . /code/docker-learn
 
 # 装包
 # RUN yarn
-RUN npm install
+RUN yarn
 
 EXPOSE 3000
 
