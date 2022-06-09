@@ -8,6 +8,7 @@ WORKDIR /code/docker-learn
 ADD . /code/docker-learn
 
 # 装包
+# RUN yarn
 RUN npm install
 
 EXPOSE 3000
