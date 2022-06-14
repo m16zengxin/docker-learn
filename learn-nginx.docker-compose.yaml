@@ -1,7 +1,7 @@
 version: "3"
 services:
   learn-nginx:
-  image: nginx:alpine
+    image: nginx:alpine
   ports:
     - 4000:80
   volumes:
